@@ -1,0 +1,66 @@
+
+#root{
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  background-color: black;
+}
+.copertina img{
+  height: 200px;
+  width: 200px;
+  border: 0px;
+  margin: 20px 20px;
+  border: 3px solid white;
+}
+
+.card-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+button{
+  width: 100px;
+  height: 100px;
+}
+.card{
+  border: 0px;
+  background-color: black;
+}
+.card-info p{
+  margin: 0 20px;
+  color: white;
+}
+.canzoni{
+  margin-top: 80px;
+}
+.card-info{
+  max-width: 240px;
+}
+.filtri{
+  height: 70px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: green;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+.filtri .col-12{
+  display: flex;
+}
+.filtri button{
+  width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.form-select{
+  width: 200px;
+  height: 50px;
+}
